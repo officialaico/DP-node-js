@@ -1,0 +1,21 @@
+{
+  "name": "dp-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jimp": "^0.22.12",
+    "luxon": "^3.4.4",
+    "node-spotify-api": "^1.1.1",
+    "puppeteer": "^22.10.0"
+  }
+}

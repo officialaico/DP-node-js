@@ -1,0 +1,1880 @@
+{
+    "timestamp": "2024-06-03T18:15:39.919Z",
+    "data": [
+        {
+            "title": "BAND4BAND",
+            "author": "Central Cee & Lil Baby",
+            "graph_values": [
+                0.8333333333333334,
+                0.6481481481481481,
+                0.537037037037037,
+                0.537037037037037,
+                0.5185185185185186,
+                0.4629629629629629,
+                0.2962962962962963
+            ],
+            "acousticness": 0.359,
+            "danceability": 0.882,
+            "energy": 0.764,
+            "instrumentalness": 0,
+            "liveness": 0.119,
+            "speechiness": 0.204,
+            "valence": 0.886
+        },
+        {
+            "title": "Waters",
+            "author": "Lagrace",
+            "graph_values": [
+                0.8333333333333334,
+                0.5740740740740741,
+                0.35185185185185186,
+                0.20370370370370372,
+                0.31481481481481477,
+                0.12962962962962965,
+                0.11111111111111116
+            ],
+            "acousticness": 0.841,
+            "danceability": 0.482,
+            "energy": 0.462,
+            "instrumentalness": 0.000322,
+            "liveness": 0.103,
+            "speechiness": 0.0708,
+            "valence": 0.349
+        },
+        {
+            "title": "BRAWLSTARS LOSE SCREEN PHONK",
+            "author": "Riversmelt",
+            "graph_values": [
+                0.7962962962962963,
+                0.12962962962962965,
+                0.05555555555555558,
+                0.03703703703703709,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.05555555555555558
+            ],
+            "acousticness": 0.00198,
+            "danceability": 0.597,
+            "energy": 0.993,
+            "instrumentalness": 0.529,
+            "liveness": 0.361,
+            "speechiness": 0.0835,
+            "valence": 0.65
+        },
+        {
+            "title": "Сквик Зачитал Хит",
+            "author": "aaabeats",
+            "graph_values": [
+                0.7962962962962963,
+                0.16666666666666663,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.05555555555555558
+            ],
+            "acousticness": 0.477,
+            "danceability": 0.812,
+            "energy": 0.492,
+            "instrumentalness": 0.00338,
+            "liveness": 0.204,
+            "speechiness": 0.423,
+            "valence": 0.238
+        },
+        {
+            "title": "Slide da Treme Melódica v2 - Ultra Slowed",
+            "author": "DJ FNK",
+            "graph_values": [
+                0.7962962962962963,
+                0.38888888888888884,
+                0.09259259259259256,
+                0.09259259259259256,
+                0.12962962962962965,
+                0.12962962962962965,
+                0.16666666666666663
+            ],
+            "acousticness": 0.0585,
+            "danceability": 0.723,
+            "energy": 0.746,
+            "instrumentalness": 0.613,
+            "liveness": 0.259,
+            "speechiness": 0.0773,
+            "valence": 0.12
+        },
+        {
+            "title": "Brother Eww",
+            "author": "Echidna3000",
+            "graph_values": [
+                0.7962962962962963,
+                0.31481481481481477,
+                0.18518518518518523,
+                0.18518518518518523,
+                0.2222222222222222,
+                0.16666666666666663,
+                0.2222222222222222
+            ],
+            "acousticness": 0.023,
+            "danceability": 0.786,
+            "energy": 0.851,
+            "instrumentalness": 0.91,
+            "liveness": 0.118,
+            "speechiness": 0.0554,
+            "valence": 0.817
+        },
+        {
+            "title": "Pink Friday Girls",
+            "author": "Nicki Minaj",
+            "graph_values": [
+                0.7962962962962963,
+                0.35185185185185186,
+                0.11111111111111116,
+                0.07407407407407407,
+                0.07407407407407407,
+                0.09259259259259256,
+                0.09259259259259256
+            ],
+            "acousticness": 0.0713,
+            "danceability": 0.743,
+            "energy": 0.785,
+            "instrumentalness": 0,
+            "liveness": 0.107,
+            "speechiness": 0.0668,
+            "valence": 0.192
+        },
+        {
+            "title": "KEHLANI",
+            "author": "Jordan Adetunji",
+            "graph_values": [
+                0.8518518518518519,
+                0.7037037037037037,
+                0.5925925925925926,
+                0.5925925925925926,
+                0.42592592592592593,
+                0.33333333333333337,
+                0.2592592592592593
+            ],
+            "acousticness": 0.163,
+            "danceability": 0.644,
+            "energy": 0.634,
+            "instrumentalness": 0.00000315,
+            "liveness": 0.0903,
+            "speechiness": 0.0341,
+            "valence": 0.353
+        },
+        {
+            "title": "Motivational Workout",
+            "author": "Salsaa Sound",
+            "graph_values": [
+                0.8148148148148149,
+                0.35185185185185186,
+                0.05555555555555558,
+                0.03703703703703709,
+                0.03703703703703709,
+                0.03703703703703709,
+                0.03703703703703709
+            ]
+        },
+        {
+            "title": "WITH EVERYTHING",
+            "author": "YANAtheartist",
+            "graph_values": [
+                0.8148148148148149,
+                0.5185185185185186,
+                0.20370370370370372,
+                0.18518518518518523,
+                0.11111111111111116,
+                0.07407407407407407,
+                0.07407407407407407
+            ],
+            "acousticness": 0.886,
+            "danceability": 0.365,
+            "energy": 0.0334,
+            "instrumentalness": 0.00000591,
+            "liveness": 0.121,
+            "speechiness": 0.135,
+            "valence": 0.594
+        },
+        {
+            "title": "Come Through",
+            "author": "Rui & Voluptuöus",
+            "graph_values": [
+                0.7962962962962963,
+                0.16666666666666663,
+                0.18518518518518523,
+                0.2777777777777778,
+                0.33333333333333337,
+                0.20370370370370372,
+                0.09259259259259256
+            ]
+        },
+        {
+            "title": "Jeu De Jambes",
+            "author": "Davy One",
+            "graph_values": [
+                0.8333333333333334,
+                0.5925925925925926,
+                0.4629629629629629,
+                0.4814814814814815,
+                0.42592592592592593,
+                0.31481481481481477,
+                0.2592592592592593
+            ],
+            "acousticness": 0.097,
+            "danceability": 0.796,
+            "energy": 0.777,
+            "instrumentalness": 0,
+            "liveness": 0.075,
+            "speechiness": 0.0641,
+            "valence": 0.87
+        },
+        {
+            "title": "Hood Rats",
+            "author": "Sexyy Red & Sukihana",
+            "graph_values": [
+                0.7777777777777778,
+                0.8333333333333334,
+                0.20370370370370372,
+                0.09259259259259256,
+                0.07407407407407407,
+                0.07407407407407407,
+                0.07407407407407407
+            ],
+            "acousticness": 0.0256,
+            "danceability": 0.812,
+            "energy": 0.701,
+            "instrumentalness": 0,
+            "liveness": 0.155,
+            "speechiness": 0.33,
+            "valence": 0.476
+        },
+        {
+            "title": "Hala Madrid ...y nada más",
+            "author": "Real Madrid",
+            "graph_values": [
+                0.7777777777777778,
+                0.09259259259259256,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.05555555555555558
+            ],
+            "acousticness": 0.494,
+            "danceability": 0.228,
+            "energy": 0.582,
+            "instrumentalness": 0.0207,
+            "liveness": 0.842,
+            "speechiness": 0.0463,
+            "valence": 0.24
+        },
+        {
+            "title": "Hate Being Alone",
+            "author": "Kodak Black",
+            "graph_values": [
+                0.8148148148148149,
+                0.8333333333333334,
+                0.4814814814814815,
+                0.20370370370370372,
+                0.12962962962962965,
+                0.14814814814814814,
+                0.11111111111111116
+            ],
+            "acousticness": 0.258,
+            "danceability": 0.71,
+            "energy": 0.59,
+            "instrumentalness": 0,
+            "liveness": 0.372,
+            "speechiness": 0.0291,
+            "valence": 0.231
+        },
+        {
+            "title": "Chipi Chipi Chapa Chapa",
+            "author": "IamBatus & rich disease",
+            "graph_values": [
+                0.7962962962962963,
+                0.2407407407407407,
+                0.18518518518518523,
+                0.12962962962962965,
+                0.14814814814814814,
+                0.2222222222222222,
+                0.2962962962962963
+            ]
+        },
+        {
+            "title": "Stargazing",
+            "author": "Myles Smith",
+            "graph_values": [
+                0.8333333333333334,
+                0.6296296296296297,
+                0.5925925925925926,
+                0.38888888888888884,
+                0.37037037037037035,
+                0.2407407407407407,
+                0.33333333333333337
+            ],
+            "acousticness": 0.246,
+            "danceability": 0.635,
+            "energy": 0.601,
+            "instrumentalness": 0,
+            "liveness": 0.11,
+            "speechiness": 0.0295,
+            "valence": 0.332
+        },
+        {
+            "title": "Sneaky Sneaky",
+            "author": "Gold-Tiger",
+            "graph_values": [
+                0.8333333333333334,
+                0.5555555555555556,
+                0.38888888888888884,
+                0.38888888888888884,
+                0.38888888888888884,
+                0.2777777777777778,
+                0.2407407407407407
+            ],
+            "acousticness": 0.782,
+            "danceability": 0.931,
+            "energy": 0.165,
+            "instrumentalness": 0.565,
+            "liveness": 0.0775,
+            "speechiness": 0.0572,
+            "valence": 0.493
+        },
+        {
+            "title": "Trollge Phonk (Sped Up)",
+            "author": "AMOGUS & KYÖ$TIMANE & BXRSXRK",
+            "graph_values": [
+                0.7962962962962963,
+                0.2962962962962963,
+                0.31481481481481477,
+                0.2407407407407407,
+                0.12962962962962965,
+                0.12962962962962965,
+                0.37037037037037035
+            ],
+            "acousticness": 0.0139,
+            "danceability": 0.646,
+            "energy": 0.996,
+            "instrumentalness": 0.916,
+            "liveness": 0.401,
+            "speechiness": 0.482,
+            "valence": 0.442
+        },
+        {
+            "title": "Bach unaccompanied cello suite \"Prelude\"",
+            "author": "Jianteng",
+            "graph_values": [
+                0.8333333333333334,
+                0.6111111111111112,
+                0.6296296296296297,
+                0.5925925925925926,
+                0.6851851851851851,
+                0.2777777777777778,
+                0.18518518518518523
+            ]
+        },
+        {
+            "title": "NIGHTS LIKE THIS",
+            "author": "The Kid LAROI",
+            "graph_values": [
+                0.8333333333333334,
+                0.5555555555555556,
+                0.4444444444444444,
+                0.4629629629629629,
+                0.2962962962962963,
+                0.2962962962962963,
+                0.2222222222222222
+            ],
+            "acousticness": 0.0137,
+            "danceability": 0.482,
+            "energy": 0.757,
+            "instrumentalness": 0.0016,
+            "liveness": 0.143,
+            "speechiness": 0.0355,
+            "valence": 0.12
+        },
+        {
+            "title": "rock your hips",
+            "author": "310babii & OhGeesy & BlueBucksClan",
+            "graph_values": [
+                0.8333333333333334,
+                0.6481481481481481,
+                0.6666666666666667,
+                0.6296296296296297,
+                0.37037037037037035,
+                0.2407407407407407,
+                0.33333333333333337
+            ],
+            "acousticness": 0.047,
+            "danceability": 0.866,
+            "energy": 0.759,
+            "instrumentalness": 0,
+            "liveness": 0.102,
+            "speechiness": 0.221,
+            "valence": 0.762
+        },
+        {
+            "title": "Good Luck, Babe!",
+            "author": "Chappell Roan",
+            "graph_values": [
+                0.7962962962962963,
+                0.2222222222222222,
+                0.14814814814814814,
+                0.16666666666666663,
+                0.18518518518518523,
+                0.14814814814814814,
+                0.14814814814814814
+            ],
+            "acousticness": 0.0502,
+            "danceability": 0.7,
+            "energy": 0.582,
+            "instrumentalness": 0,
+            "liveness": 0.0881,
+            "speechiness": 0.0356,
+            "valence": 0.785
+        },
+        {
+            "title": "Graduation (Friends Forever)",
+            "author": "Vitamin C",
+            "graph_values": [
+                0.8333333333333334,
+                0.7037037037037037,
+                0.6666666666666667,
+                0.6111111111111112,
+                0.4814814814814815,
+                0.12962962962962965,
+                0.11111111111111116
+            ],
+            "acousticness": 0.00722,
+            "danceability": 0.583,
+            "energy": 0.637,
+            "instrumentalness": 0.0419,
+            "liveness": 0.177,
+            "speechiness": 0.0459,
+            "valence": 0.315
+        },
+        {
+            "title": "love.",
+            "author": "wave to earth",
+            "graph_values": [
+                0.7962962962962963,
+                0.20370370370370372,
+                0.14814814814814814,
+                0.16666666666666663,
+                0.16666666666666663,
+                0.11111111111111116,
+                0.2407407407407407
+            ],
+            "acousticness": 0.649,
+            "danceability": 0.319,
+            "energy": 0.391,
+            "instrumentalness": 0.296,
+            "liveness": 0.279,
+            "speechiness": 0.0298,
+            "valence": 0.251
+        },
+        {
+            "title": "UEFA Champions League Anthem (Full Version)",
+            "author": "UEFA & Tony Britten",
+            "graph_values": [
+                0.7962962962962963,
+                0.20370370370370372,
+                0.14814814814814814,
+                0.11111111111111116,
+                0.11111111111111116,
+                0.07407407407407407,
+                0.07407407407407407
+            ],
+            "acousticness": 0.734,
+            "danceability": 0.5,
+            "energy": 0.11,
+            "instrumentalness": 0.0362,
+            "liveness": 0.105,
+            "speechiness": 0.0323,
+            "valence": 0.118
+        },
+        {
+            "title": "Gangsta's Paradise",
+            "author": "Coolio",
+            "graph_values": [
+                0.7962962962962963,
+                0.18518518518518523,
+                0.11111111111111116,
+                0.09259259259259256,
+                0.07407407407407407,
+                0.07407407407407407,
+                0.05555555555555558
+            ],
+            "acousticness": 0.0653,
+            "danceability": 0.681,
+            "energy": 0.292,
+            "instrumentalness": 0.977,
+            "liveness": 0.147,
+            "speechiness": 0.0471,
+            "valence": 0.216
+        },
+        {
+            "title": "HOT TO GO!",
+            "author": "Chappell Roan",
+            "graph_values": [
+                0.7962962962962963,
+                0.35185185185185186,
+                0.14814814814814814,
+                0.2222222222222222,
+                0.16666666666666663,
+                0.12962962962962965,
+                0.14814814814814814
+            ],
+            "acousticness": 0.0187,
+            "danceability": 0.742,
+            "energy": 0.757,
+            "instrumentalness": 0,
+            "liveness": 0.305,
+            "speechiness": 0.0421,
+            "valence": 0.957
+        },
+        {
+            "title": "Born This Way",
+            "author": "Lady Gaga",
+            "graph_values": [
+                0.7962962962962963,
+                0.12962962962962965,
+                0.12962962962962965,
+                0.05555555555555558,
+                0.07407407407407407,
+                0.14814814814814814,
+                0.09259259259259256
+            ],
+            "acousticness": 0.00327,
+            "danceability": 0.587,
+            "energy": 0.828,
+            "instrumentalness": 0,
+            "liveness": 0.331,
+            "speechiness": 0.161,
+            "valence": 0.493
+        },
+        {
+            "title": "Oreo",
+            "author": "Myles Cameron",
+            "graph_values": [
+                0.7962962962962963,
+                0.14814814814814814,
+                0.07407407407407407,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.03703703703703709
+            ],
+            "acousticness": 0.968,
+            "danceability": 0.462,
+            "energy": 0.181,
+            "instrumentalness": 0.000785,
+            "liveness": 0.0997,
+            "speechiness": 0.433,
+            "valence": 0.234
+        },
+        {
+            "title": "Day-O (The Banana Boat Song)",
+            "author": "Harry Belafonte",
+            "graph_values": [
+                0.7962962962962963,
+                0.2222222222222222,
+                0.18518518518518523,
+                0.18518518518518523,
+                0.20370370370370372,
+                0.12962962962962965,
+                0.2407407407407407
+            ],
+            "acousticness": 0.949,
+            "danceability": 0.639,
+            "energy": 0.0996,
+            "instrumentalness": 0.00273,
+            "liveness": 0.105,
+            "speechiness": 0.0992,
+            "valence": 0.359
+        },
+        {
+            "title": "O Fortuna",
+            "author": "Therion",
+            "graph_values": [
+                0.7777777777777778,
+                0.09259259259259256,
+                0.05555555555555558,
+                0.03703703703703709,
+                0.03703703703703709,
+                0.03703703703703709,
+                0.03703703703703709
+            ],
+            "acousticness": 0.548,
+            "danceability": 0.366,
+            "energy": 0.422,
+            "instrumentalness": 0.0603,
+            "liveness": 0.318,
+            "speechiness": 0.0337,
+            "valence": 0.0376
+        },
+        {
+            "title": "Where's My Love (Acoustic)",
+            "author": "SYML",
+            "graph_values": [
+                0.8148148148148149,
+                0.37037037037037035,
+                0.20370370370370372,
+                0.07407407407407407,
+                0.07407407407407407,
+                0.07407407407407407,
+                0.09259259259259256
+            ]
+        },
+        {
+            "title": "(Sittin' On) the Dock of the Bay",
+            "author": "Otis Redding",
+            "graph_values": [
+                0.7962962962962963,
+                0.2962962962962963,
+                0.05555555555555558,
+                0.03703703703703709,
+                0.03703703703703709,
+                0.03703703703703709,
+                0.03703703703703709
+            ],
+            "acousticness": 0.683,
+            "danceability": 0.768,
+            "energy": 0.367,
+            "instrumentalness": 0.0000179,
+            "liveness": 0.081,
+            "speechiness": 0.0315,
+            "valence": 0.532
+        },
+        {
+            "title": "I Wanna Thank Me (feat. Niecy Nash)",
+            "author": "Meghan Trainor",
+            "graph_values": [
+                0.8518518518518519,
+                0.7222222222222222,
+                0.8148148148148149,
+                0.7222222222222222,
+                0.7037037037037037,
+                0.37037037037037035,
+                0.2222222222222222
+            ],
+            "acousticness": 0.0849,
+            "danceability": 0.786,
+            "energy": 0.891,
+            "instrumentalness": 0.0000817,
+            "liveness": 0.186,
+            "speechiness": 0.0435,
+            "valence": 0.88
+        },
+        {
+            "title": "Dekhha Tenu (From \"Mr. And Mrs. Mahi\")",
+            "author": "Jaani & Mohammad Faiz",
+            "graph_values": [
+                0.7962962962962963,
+                0.37037037037037035,
+                0.33333333333333337,
+                0.38888888888888884,
+                0.5555555555555556,
+                0.35185185185185186,
+                0.18518518518518523
+            ],
+            "acousticness": 0.711,
+            "danceability": 0.417,
+            "energy": 0.439,
+            "instrumentalness": 0,
+            "liveness": 0.193,
+            "speechiness": 0.0368,
+            "valence": 0.506
+        },
+        {
+            "title": "Sprinter",
+            "author": "Dave & Central Cee",
+            "graph_values": [
+                0.8148148148148149,
+                0.4814814814814815,
+                0.2592592592592593,
+                0.18518518518518523,
+                0.14814814814814814,
+                0.14814814814814814,
+                0.14814814814814814
+            ],
+            "acousticness": 0.263,
+            "danceability": 0.918,
+            "energy": 0.681,
+            "instrumentalness": 0,
+            "liveness": 0.0615,
+            "speechiness": 0.201,
+            "valence": 0.706
+        },
+        {
+            "title": "Bring It Back",
+            "author": "Chris Travis",
+            "graph_values": [
+                0.6851851851851851,
+                0.6296296296296297,
+                0.7037037037037037,
+                0.7037037037037037,
+                0.6481481481481481,
+                0.7037037037037037,
+                0.8518518518518519
+            ],
+            "acousticness": 0.117,
+            "danceability": 0.745,
+            "energy": 0.383,
+            "instrumentalness": 0,
+            "liveness": 0.109,
+            "speechiness": 0.0484,
+            "valence": 0.167
+        },
+        {
+            "title": "Runaway - Piano Rendition",
+            "author": "The Blue Notes & L'Orchestra Cinematique",
+            "graph_values": [
+                0.7962962962962963,
+                0.12962962962962965,
+                0.09259259259259256,
+                0.07407407407407407,
+                0.09259259259259256,
+                0.07407407407407407,
+                0.07407407407407407
+            ]
+        },
+        {
+            "title": "Islands (kompa pasión)",
+            "author": "Фрози & Tomo",
+            "graph_values": [
+                0.8148148148148149,
+                0.4444444444444444,
+                0.20370370370370372,
+                0.12962962962962965,
+                0.16666666666666663,
+                0.20370370370370372,
+                0.33333333333333337
+            ],
+            "acousticness": 0.00325,
+            "danceability": 0.521,
+            "energy": 0.863,
+            "instrumentalness": 0,
+            "liveness": 0.593,
+            "speechiness": 0.0466,
+            "valence": 0.445
+        },
+        {
+            "title": "SONIC.EXE - SUPER SLOWED",
+            "author": "dawnicy",
+            "graph_values": [
+                0.8148148148148149,
+                0.4814814814814815,
+                0.11111111111111116,
+                0.11111111111111116,
+                0.09259259259259256,
+                0.11111111111111116,
+                0.11111111111111116
+            ],
+            "acousticness": 0.402,
+            "danceability": 0.778,
+            "energy": 0.893,
+            "instrumentalness": 0.59,
+            "liveness": 0.188,
+            "speechiness": 0.366,
+            "valence": 0.64
+        },
+        {
+            "title": "New Jazz",
+            "author": "wayudance",
+            "graph_values": [
+                0.8518518518518519,
+                0.7407407407407407,
+                0.38888888888888884,
+                0.14814814814814814,
+                0.14814814814814814,
+                0.12962962962962965,
+                0.12962962962962965
+            ],
+            "acousticness": 0.000838,
+            "danceability": 0.38,
+            "energy": 0.631,
+            "instrumentalness": 0.87,
+            "liveness": 0.157,
+            "speechiness": 0.103,
+            "valence": 0.316
+        },
+        {
+            "title": "HA-HA!",
+            "author": "FORGOTTENAGE",
+            "graph_values": [
+                0.8148148148148149,
+                0.37037037037037035,
+                0.2777777777777778,
+                0.2592592592592593,
+                0.20370370370370372,
+                0.16666666666666663,
+                0.20370370370370372
+            ],
+            "acousticness": 0.00144,
+            "danceability": 0.882,
+            "energy": 0.998,
+            "instrumentalness": 0.938,
+            "liveness": 0.313,
+            "speechiness": 0.0414,
+            "valence": 0.963
+        },
+        {
+            "title": "1998",
+            "author": "Lamp",
+            "graph_values": [
+                0.7962962962962963,
+                0.37037037037037035,
+                0.2222222222222222,
+                0.2407407407407407,
+                0.14814814814814814,
+                0.09259259259259256,
+                0.2222222222222222
+            ],
+            "acousticness": 0.546,
+            "danceability": 0.667,
+            "energy": 0.384,
+            "instrumentalness": 0.0000164,
+            "liveness": 0.286,
+            "speechiness": 0.0292,
+            "valence": 0.408
+        },
+        {
+            "title": "BBL Drizzy",
+            "author": "AfroShon",
+            "graph_values": [
+                0.8148148148148149,
+                0.4814814814814815,
+                0.12962962962962965,
+                0.11111111111111116,
+                0.20370370370370372,
+                0.11111111111111116,
+                0.12962962962962965
+            ]
+        },
+        {
+            "title": "UEFA Champions League Anthem",
+            "author": "UEFA",
+            "graph_values": [
+                0.7962962962962963,
+                0.12962962962962965,
+                0.07407407407407407,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.09259259259259256
+            ],
+            "acousticness": 0.603,
+            "danceability": 0.518,
+            "energy": 0.245,
+            "instrumentalness": 0.00000784,
+            "liveness": 0.54,
+            "speechiness": 0.0333,
+            "valence": 0.743
+        },
+        {
+            "title": "Static (Sped Up)",
+            "author": "Steve Lacy",
+            "graph_values": [
+                0.6851851851851851,
+                0.537037037037037,
+                0.6111111111111112,
+                0.8333333333333334,
+                0.5740740740740741,
+                0.7407407407407407,
+                0.7962962962962963
+            ]
+        },
+        {
+            "title": "Sad and lonely",
+            "author": "MoppySound",
+            "graph_values": [
+                0.7962962962962963,
+                0.20370370370370372,
+                0.18518518518518523,
+                0.2407407407407407,
+                0.2777777777777778,
+                0.16666666666666663,
+                0.2962962962962963
+            ]
+        },
+        {
+            "title": "MTG - VINGANÇA",
+            "author": "DJ FKU",
+            "graph_values": [
+                0.8148148148148149,
+                0.4444444444444444,
+                0.09259259259259256,
+                0.14814814814814814,
+                0.07407407407407407,
+                0.14814814814814814,
+                0.14814814814814814
+            ],
+            "acousticness": 0.0583,
+            "danceability": 0.789,
+            "energy": 0.985,
+            "instrumentalness": 0.888,
+            "liveness": 0.281,
+            "speechiness": 0.0588,
+            "valence": 0.898
+        },
+        {
+            "title": "Bad Reputation",
+            "author": "Joan Jett",
+            "graph_values": [
+                0.8333333333333334,
+                0.6296296296296297,
+                0.6111111111111112,
+                0.6481481481481481,
+                0.5740740740740741,
+                0.7222222222222222,
+                0.5185185185185186
+            ],
+            "acousticness": 0.00192,
+            "danceability": 0.378,
+            "energy": 0.974,
+            "instrumentalness": 0.0139,
+            "liveness": 0.0588,
+            "speechiness": 0.194,
+            "valence": 0.824
+        },
+        {
+            "title": "Montagem Sonic Ritmado 1.0 (Super Slowed)",
+            "author": "TOKYOPHILE",
+            "graph_values": [
+                0.8148148148148149,
+                0.42592592592592593,
+                0.35185185185185186,
+                0.20370370370370372,
+                0.31481481481481477,
+                0.18518518518518523,
+                0.20370370370370372
+            ],
+            "acousticness": 0.117,
+            "danceability": 0.835,
+            "energy": 0.644,
+            "instrumentalness": 0.691,
+            "liveness": 0.0609,
+            "speechiness": 0.429,
+            "valence": 0.675
+        },
+        {
+            "title": "Big Bad Wolf (Radio Edit)",
+            "author": "Duck Sauce",
+            "graph_values": [
+                0.8148148148148149,
+                0.4444444444444444,
+                0.07407407407407407,
+                0.07407407407407407,
+                0.07407407407407407,
+                0.05555555555555558,
+                0.03703703703703709
+            ],
+            "acousticness": 0.0102,
+            "danceability": 0.801,
+            "energy": 0.979,
+            "instrumentalness": 0.916,
+            "liveness": 0.129,
+            "speechiness": 0.157,
+            "valence": 0.074
+        },
+        {
+            "title": "Oops!...I Did It Again",
+            "author": "Britney Spears",
+            "graph_values": [
+                0.7962962962962963,
+                0.2222222222222222,
+                0.20370370370370372,
+                0.16666666666666663,
+                0.2407407407407407,
+                0.16666666666666663,
+                0.12962962962962965
+            ],
+            "acousticness": 0.3,
+            "danceability": 0.751,
+            "energy": 0.834,
+            "instrumentalness": 0.0000177,
+            "liveness": 0.355,
+            "speechiness": 0.0437,
+            "valence": 0.894
+        },
+        {
+            "title": "(You're The) Devil in Disguise",
+            "author": "Elvis Presley",
+            "graph_values": [
+                0.7962962962962963,
+                0.2962962962962963,
+                0.2962962962962963,
+                0.2407407407407407,
+                0.16666666666666663,
+                0.05555555555555558,
+                0.05555555555555558
+            ]
+        },
+        {
+            "title": "THOMAS",
+            "author": "ZWE1HVNDXR & NONTHENSE",
+            "graph_values": [
+                0.7962962962962963,
+                0.20370370370370372,
+                0.20370370370370372,
+                0.16666666666666663,
+                0.09259259259259256,
+                0.09259259259259256,
+                0.16666666666666663
+            ],
+            "acousticness": 0.254,
+            "danceability": 0.748,
+            "energy": 0.908,
+            "instrumentalness": 0.882,
+            "liveness": 0.0927,
+            "speechiness": 0.0475,
+            "valence": 0.546
+        },
+        {
+            "title": "SLOW DANCING IN THE DARK",
+            "author": "Joji",
+            "graph_values": [
+                0.7962962962962963,
+                0.2962962962962963,
+                0.16666666666666663,
+                0.11111111111111116,
+                0.11111111111111116,
+                0.12962962962962965,
+                0.2777777777777778
+            ],
+            "acousticness": 0.544,
+            "danceability": 0.517,
+            "energy": 0.479,
+            "instrumentalness": 0.00598,
+            "liveness": 0.191,
+            "speechiness": 0.0261,
+            "valence": 0.284
+        },
+        {
+            "title": "Man In Finance (G6 Trust Fund)",
+            "author": "Girl On Couch & Billen Ted",
+            "graph_values": [
+                0.8333333333333334,
+                0.7037037037037037,
+                0.7222222222222222,
+                0.35185185185185186,
+                0.31481481481481477,
+                0.4814814814814815,
+                0.33333333333333337
+            ],
+            "acousticness": 0.00273,
+            "danceability": 0.648,
+            "energy": 0.933,
+            "instrumentalness": 0.018,
+            "liveness": 0.14,
+            "speechiness": 0.0651,
+            "valence": 0.402
+        },
+        {
+            "title": "Saturn",
+            "author": "SZA",
+            "graph_values": [
+                0.8148148148148149,
+                0.4814814814814815,
+                0.2777777777777778,
+                0.2592592592592593,
+                0.2777777777777778,
+                0.2777777777777778,
+                0.42592592592592593
+            ],
+            "acousticness": 0.62,
+            "danceability": 0.411,
+            "energy": 0.619,
+            "instrumentalness": 0,
+            "liveness": 0.11,
+            "speechiness": 0.0368,
+            "valence": 0.337
+        },
+        {
+            "title": "Mangos - Tiktok Version",
+            "author": "LDRR",
+            "graph_values": [
+                0.8333333333333334,
+                0.537037037037037,
+                0.12962962962962965,
+                0.16666666666666663,
+                0.11111111111111116,
+                0.16666666666666663,
+                0.12962962962962965
+            ],
+            "acousticness": 0.0496,
+            "danceability": 0.668,
+            "energy": 0.827,
+            "instrumentalness": 0.0139,
+            "liveness": 0.368,
+            "speechiness": 0.052,
+            "valence": 0.812
+        },
+        {
+            "title": "From The Start - Sped Up",
+            "author": "Mei Mei The Bunny",
+            "graph_values": [
+                0.7962962962962963,
+                0.12962962962962965,
+                0.09259259259259256,
+                0.20370370370370372,
+                0.2222222222222222,
+                0.12962962962962965,
+                0.12962962962962965
+            ],
+            "acousticness": 0.913,
+            "danceability": 0.665,
+            "energy": 0.397,
+            "instrumentalness": 0.00113,
+            "liveness": 0.112,
+            "speechiness": 0.0536,
+            "valence": 0.883
+        },
+        {
+            "title": "MALA",
+            "author": "6ix9ine",
+            "graph_values": [
+                0.7962962962962963,
+                0.2777777777777778,
+                0.2777777777777778,
+                0.33333333333333337,
+                0.33333333333333337,
+                0.35185185185185186,
+                0.537037037037037
+            ],
+            "acousticness": 0.693,
+            "danceability": 0.719,
+            "energy": 0.822,
+            "instrumentalness": 0,
+            "liveness": 0.0997,
+            "speechiness": 0.0427,
+            "valence": 0.785
+        },
+        {
+            "title": "Granny's House (feat. Fgteev)",
+            "author": "Funnel Vision",
+            "graph_values": [
+                0.5925925925925926,
+                0.8148148148148149,
+                0.09259259259259256,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.05555555555555558
+            ]
+        },
+        {
+            "title": "Party Rock Anthem",
+            "author": "LMFAO",
+            "graph_values": [
+                0.8148148148148149,
+                0.4444444444444444,
+                0.12962962962962965,
+                0.07407407407407407,
+                0.20370370370370372,
+                0.12962962962962965,
+                0.2407407407407407
+            ],
+            "acousticness": 0.0188,
+            "danceability": 0.75,
+            "energy": 0.727,
+            "instrumentalness": 0,
+            "liveness": 0.266,
+            "speechiness": 0.142,
+            "valence": 0.359
+        },
+        {
+            "title": "This Side of Paradise",
+            "author": "Coyote Theory",
+            "graph_values": [
+                0.7962962962962963,
+                0.16666666666666663,
+                0.14814814814814814,
+                0.11111111111111116,
+                0.07407407407407407,
+                0.12962962962962965,
+                0.07407407407407407
+            ],
+            "acousticness": 0.432,
+            "danceability": 0.306,
+            "energy": 0.664,
+            "instrumentalness": 0.0000075,
+            "liveness": 0.135,
+            "speechiness": 0.0276,
+            "valence": 0.321
+        },
+        {
+            "title": "Parado no Bailão",
+            "author": "MC L da Vinte & MC Gury",
+            "graph_values": [
+                0.7962962962962963,
+                0.2962962962962963,
+                0.42592592592592593,
+                0.5185185185185186,
+                0.6296296296296297,
+                0.4629629629629629,
+                0.35185185185185186
+            ],
+            "acousticness": 0.381,
+            "danceability": 0.828,
+            "energy": 0.599,
+            "instrumentalness": 0,
+            "liveness": 0.0775,
+            "speechiness": 0.149,
+            "valence": 0.478
+        },
+        {
+            "title": "SLUT ME OUT 2",
+            "author": "NLE Choppa",
+            "graph_values": [
+                0.8333333333333334,
+                0.6296296296296297,
+                0.5740740740740741,
+                0.38888888888888884,
+                0.33333333333333337,
+                0.31481481481481477,
+                0.18518518518518523
+            ],
+            "acousticness": 0.0383,
+            "danceability": 0.718,
+            "energy": 0.624,
+            "instrumentalness": 0,
+            "liveness": 0.0547,
+            "speechiness": 0.235,
+            "valence": 0.456
+        },
+        {
+            "title": "Count Contessa",
+            "author": "Azealia Banks & Lone",
+            "graph_values": [
+                0.7962962962962963,
+                0.2962962962962963,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.07407407407407407,
+                0.05555555555555558,
+                0.05555555555555558
+            ],
+            "acousticness": 0.213,
+            "danceability": 0.603,
+            "energy": 0.956,
+            "instrumentalness": 0,
+            "liveness": 0.471,
+            "speechiness": 0.4,
+            "valence": 0.419
+        },
+        {
+            "title": "Kash Kommandments",
+            "author": "Kash Doll",
+            "graph_values": [
+                0.8148148148148149,
+                0.4814814814814815,
+                0.18518518518518523,
+                0.20370370370370372,
+                0.20370370370370372,
+                0.20370370370370372,
+                0.12962962962962965
+            ],
+            "acousticness": 0.0793,
+            "danceability": 0.85,
+            "energy": 0.514,
+            "instrumentalness": 0,
+            "liveness": 0.122,
+            "speechiness": 0.318,
+            "valence": 0.472
+        },
+        {
+            "title": "Built To Be Bad (with Alex Sampson)",
+            "author": "Grace Gachot & Alex Sampson",
+            "graph_values": [
+                0.8333333333333334,
+                0.6111111111111112,
+                0.2777777777777778,
+                0.4629629629629629,
+                0.2592592592592593,
+                0.2962962962962963,
+                0.31481481481481477
+            ],
+            "acousticness": 0.329,
+            "danceability": 0.369,
+            "energy": 0.404,
+            "instrumentalness": 0,
+            "liveness": 0.133,
+            "speechiness": 0.119,
+            "valence": 0.159
+        },
+        {
+            "title": "Upbeat Energetic Uplifting Pop",
+            "author": "Renzo La Vista",
+            "graph_values": [
+                0.8148148148148149,
+                0.4629629629629629,
+                0.4814814814814815,
+                0.2592592592592593,
+                0.16666666666666663,
+                0.11111111111111116,
+                0.05555555555555558
+            ],
+            "acousticness": 0.00453,
+            "danceability": 0.425,
+            "energy": 0.906,
+            "instrumentalness": 0.969,
+            "liveness": 0.0944,
+            "speechiness": 0.0307,
+            "valence": 0.258
+        },
+        {
+            "title": "did i tell u that i miss u",
+            "author": "adore",
+            "graph_values": [
+                0.8148148148148149,
+                0.40740740740740744,
+                0.5740740740740741,
+                0.7592592592592593,
+                0.5555555555555556,
+                0.6666666666666667,
+                0.6296296296296297
+            ],
+            "acousticness": 0.165,
+            "danceability": 0.575,
+            "energy": 0.748,
+            "instrumentalness": 0.79,
+            "liveness": 0.343,
+            "speechiness": 0.0357,
+            "valence": 0.236
+        },
+        {
+            "title": "Kung Fu Fighting",
+            "author": "Carl Douglas",
+            "graph_values": [
+                0.7962962962962963,
+                0.18518518518518523,
+                0.18518518518518523,
+                0.2222222222222222,
+                0.11111111111111116,
+                0.37037037037037035,
+                0.33333333333333337
+            ],
+            "acousticness": 0.146,
+            "danceability": 0.621,
+            "energy": 0.764,
+            "instrumentalness": 0.0000497,
+            "liveness": 0.161,
+            "speechiness": 0.0578,
+            "valence": 0.745
+        },
+        {
+            "title": "Amplify this Melodie",
+            "author": "Brawl Stars",
+            "graph_values": [
+                0.7962962962962963,
+                0.2592592592592593,
+                0.09259259259259256,
+                0.14814814814814814,
+                0.12962962962962965,
+                0.14814814814814814,
+                0.2407407407407407
+            ],
+            "acousticness": 0.236,
+            "danceability": 0.721,
+            "energy": 0.903,
+            "instrumentalness": 0,
+            "liveness": 0.061,
+            "speechiness": 0.078,
+            "valence": 0.846
+        },
+        {
+            "title": "Solas",
+            "author": "Gibran Alcocer",
+            "graph_values": [
+                0.7962962962962963,
+                0.2592592592592593,
+                0.37037037037037035,
+                0.6111111111111112,
+                0.2222222222222222,
+                0.6111111111111112,
+                0.38888888888888884
+            ],
+            "acousticness": 0.919,
+            "danceability": 0.187,
+            "energy": 0.324,
+            "instrumentalness": 0.928,
+            "liveness": 0.143,
+            "speechiness": 0.0331,
+            "valence": 0.413
+        },
+        {
+            "title": "MTG - VINGANÇA (Slowed + Reverb)",
+            "author": "DJ FKU",
+            "graph_values": [
+                0.7962962962962963,
+                0.20370370370370372,
+                0.11111111111111116,
+                0.07407407407407407,
+                0.09259259259259256,
+                0.09259259259259256,
+                0.12962962962962965
+            ],
+            "acousticness": 0.0487,
+            "danceability": 0.809,
+            "energy": 0.934,
+            "instrumentalness": 0.741,
+            "liveness": 0.107,
+            "speechiness": 0.0505,
+            "valence": 0.771
+        },
+        {
+            "title": "Draco",
+            "author": "Future",
+            "graph_values": [
+                0.7777777777777778,
+                0.09259259259259256,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.03703703703703709,
+                0.03703703703703709,
+                0.03703703703703709
+            ],
+            "acousticness": 0.000668,
+            "danceability": 0.804,
+            "energy": 0.456,
+            "instrumentalness": 0,
+            "liveness": 0.31,
+            "speechiness": 0.0468,
+            "valence": 0.165
+        },
+        {
+            "title": "Cuando Se Te Moja La Tare - Slowed",
+            "author": "LDRR",
+            "graph_values": [
+                0.8333333333333334,
+                0.5740740740740741,
+                0.37037037037037035,
+                0.14814814814814814,
+                0.2777777777777778,
+                0.2407407407407407,
+                0.07407407407407407
+            ],
+            "acousticness": 0.0358,
+            "danceability": 0.757,
+            "energy": 0.931,
+            "instrumentalness": 0.00057,
+            "liveness": 0.272,
+            "speechiness": 0.141,
+            "valence": 0.469
+        },
+        {
+            "title": "Inspector Ratchet",
+            "author": "Ty Simon",
+            "graph_values": [
+                0.7962962962962963,
+                0.18518518518518523,
+                0.12962962962962965,
+                0.09259259259259256,
+                0.12962962962962965,
+                0.20370370370370372,
+                0.12962962962962965
+            ],
+            "acousticness": 0.203,
+            "danceability": 0.969,
+            "energy": 0.296,
+            "instrumentalness": 0.604,
+            "liveness": 0.0743,
+            "speechiness": 0.179,
+            "valence": 0.294
+        },
+        {
+            "title": "1901",
+            "author": "Phoenix",
+            "graph_values": [
+                0.7777777777777778,
+                0.8333333333333334,
+                0.12962962962962965,
+                0.07407407407407407,
+                0.07407407407407407,
+                0.07407407407407407,
+                0.07407407407407407
+            ],
+            "acousticness": 0.0601,
+            "danceability": 0.59,
+            "energy": 0.829,
+            "instrumentalness": 0.0000399,
+            "liveness": 0.19,
+            "speechiness": 0.0419,
+            "valence": 0.704
+        },
+        {
+            "title": "ARE WE STILL FRIENDS? (don't get green skin, keep contact)",
+            "author": "Tyler, The Creator",
+            "graph_values": [
+                0.8148148148148149,
+                0.4814814814814815,
+                0.12962962962962965,
+                0.18518518518518523,
+                0.12962962962962965,
+                0.12962962962962965,
+                0.12962962962962965
+            ]
+        },
+        {
+            "title": "Break This The Breaking Point 2",
+            "author": "Vertigoaway",
+            "graph_values": [
+                0.8148148148148149,
+                0.5,
+                0.07407407407407407,
+                0.07407407407407407,
+                0.07407407407407407,
+                0.07407407407407407,
+                0.09259259259259256
+            ],
+            "acousticness": 0.0814,
+            "danceability": 0.332,
+            "energy": 0.992,
+            "instrumentalness": 0.755,
+            "liveness": 0.252,
+            "speechiness": 0.355,
+            "valence": 0.0766
+        },
+        {
+            "title": "Johnny Moonshine",
+            "author": "Maggie Antone",
+            "graph_values": [
+                0.8333333333333334,
+                0.7037037037037037,
+                0.4814814814814815,
+                0.2222222222222222,
+                0.14814814814814814,
+                0.12962962962962965,
+                0.05555555555555558
+            ],
+            "acousticness": 0.0144,
+            "danceability": 0.722,
+            "energy": 0.752,
+            "instrumentalness": 0,
+            "liveness": 0.0817,
+            "speechiness": 0.0403,
+            "valence": 0.405
+        },
+        {
+            "title": "Boombox Song 5 (From “Lethal Company”) [Extended Version]",
+            "author": "ZedFox",
+            "graph_values": [
+                0.7962962962962963,
+                0.18518518518518523,
+                0.12962962962962965,
+                0.07407407407407407,
+                0.09259259259259256,
+                0.07407407407407407,
+                0.07407407407407407
+            ],
+            "acousticness": 0.00457,
+            "danceability": 0.645,
+            "energy": 0.971,
+            "instrumentalness": 0.0157,
+            "liveness": 0.129,
+            "speechiness": 0.0359,
+            "valence": 0.897
+        },
+        {
+            "title": "Main Titles - From \"Beetlejuice\" Soundtrack",
+            "author": "Danny Elfman",
+            "graph_values": [
+                0.7777777777777778,
+                0.09259259259259256,
+                0.07407407407407407,
+                0.07407407407407407,
+                0.09259259259259256,
+                0.05555555555555558,
+                0.07407407407407407
+            ],
+            "acousticness": 0.627,
+            "danceability": 0.539,
+            "energy": 0.795,
+            "instrumentalness": 0.00165,
+            "liveness": 0.144,
+            "speechiness": 0.0827,
+            "valence": 0.167
+        },
+        {
+            "title": "Cry",
+            "author": "Tolga Kahraman & Engin Matis",
+            "graph_values": [
+                0.8333333333333334,
+                0.6111111111111112,
+                0.537037037037037,
+                0.2407407407407407,
+                0.4444444444444444,
+                0.2407407407407407,
+                0.2592592592592593
+            ],
+            "acousticness": 0.0411,
+            "danceability": 0.563,
+            "energy": 0.345,
+            "instrumentalness": 0.0000879,
+            "liveness": 0.0994,
+            "speechiness": 0.0295,
+            "valence": 0.204
+        },
+        {
+            "title": "MTG MALDIÇÃO ETERNA 1.0 (Slowed)",
+            "author": "DJ GLK & MC LIPEX",
+            "graph_values": [
+                0.7962962962962963,
+                0.18518518518518523,
+                0.2407407407407407,
+                0.2777777777777778,
+                0.33333333333333337,
+                0.42592592592592593,
+                0.7407407407407407
+            ],
+            "acousticness": 0.784,
+            "danceability": 0.496,
+            "energy": 0.593,
+            "instrumentalness": 0.643,
+            "liveness": 0.175,
+            "speechiness": 0.0495,
+            "valence": 0.292
+        },
+        {
+            "title": "DNA",
+            "author": "LXNGVX & VISXGE",
+            "graph_values": [
+                0.7962962962962963,
+                0.38888888888888884,
+                0.2962962962962963,
+                0.2962962962962963,
+                0.2407407407407407,
+                0.2962962962962963,
+                0.20370370370370372
+            ],
+            "acousticness": 0.0312,
+            "danceability": 0.719,
+            "energy": 0.849,
+            "instrumentalness": 0.0566,
+            "liveness": 0.421,
+            "speechiness": 0.0424,
+            "valence": 0.336
+        },
+        {
+            "title": "Classic",
+            "author": "MKTO",
+            "graph_values": [
+                0.7962962962962963,
+                0.33333333333333337,
+                0.6666666666666667,
+                0.537037037037037,
+                0.12962962962962965,
+                0.5,
+                0.37037037037037035
+            ],
+            "acousticness": 0.0384,
+            "danceability": 0.72,
+            "energy": 0.791,
+            "instrumentalness": 0,
+            "liveness": 0.157,
+            "speechiness": 0.124,
+            "valence": 0.756
+        },
+        {
+            "title": "Celebration",
+            "author": "Kool & The Gang",
+            "graph_values": [
+                0.8148148148148149,
+                0.40740740740740744,
+                0.2777777777777778,
+                0.18518518518518523,
+                0.2777777777777778,
+                0.2592592592592593,
+                0.14814814814814814
+            ],
+            "acousticness": 0.145,
+            "danceability": 0.886,
+            "energy": 0.664,
+            "instrumentalness": 0.0483,
+            "liveness": 0.0767,
+            "speechiness": 0.0524,
+            "valence": 0.906
+        },
+        {
+            "title": "This Magic Moment",
+            "author": "Drifters",
+            "graph_values": [
+                0.7962962962962963,
+                0.2407407407407407,
+                0.07407407407407407,
+                0.09259259259259256,
+                0.09259259259259256,
+                0.09259259259259256,
+                0.09259259259259256
+            ],
+            "acousticness": 0.455,
+            "danceability": 0.271,
+            "energy": 0.599,
+            "instrumentalness": 0.00000308,
+            "liveness": 0.11,
+            "speechiness": 0.0326,
+            "valence": 0.705
+        },
+        {
+            "title": "You're The One That I Want - From “Grease”",
+            "author": "John Travolta & Olivia Newton-John",
+            "graph_values": [
+                0.7962962962962963,
+                0.2962962962962963,
+                0.07407407407407407,
+                0.07407407407407407,
+                0.05555555555555558,
+                0.05555555555555558,
+                0.09259259259259256
+            ]
+        },
+        {
+            "title": "Saturn (Sped Up)",
+            "author": "SZA",
+            "graph_values": [
+                0.8333333333333334,
+                0.5555555555555556,
+                0.2407407407407407,
+                0.14814814814814814,
+                0.16666666666666663,
+                0.11111111111111116,
+                0.14814814814814814
+            ],
+            "acousticness": 0.541,
+            "danceability": 0.615,
+            "energy": 0.726,
+            "instrumentalness": 0,
+            "liveness": 0.197,
+            "speechiness": 0.0339,
+            "valence": 0.441
+        },
+        {
+            "title": "Red Wine Supernova",
+            "author": "Chappell Roan",
+            "graph_values": [
+                0.7962962962962963,
+                0.35185185185185186,
+                0.5,
+                0.42592592592592593,
+                0.6851851851851851,
+                0.2592592592592593,
+                0.2407407407407407
+            ],
+            "acousticness": 0.0176,
+            "danceability": 0.657,
+            "energy": 0.82,
+            "instrumentalness": 0,
+            "liveness": 0.0847,
+            "speechiness": 0.0441,
+            "valence": 0.709
+        },
+        {
+            "title": "Coming Down - Original",
+            "author": "The Weeknd",
+            "graph_values": [
+                0.7962962962962963,
+                0.33333333333333337,
+                0.2777777777777778,
+                0.11111111111111116,
+                0.05555555555555558,
+                0.07407407407407407,
+                0.05555555555555558
+            ],
+            "acousticness": 0.303,
+            "danceability": 0.694,
+            "energy": 0.649,
+            "instrumentalness": 0.0000241,
+            "liveness": 0.206,
+            "speechiness": 0.0353,
+            "valence": 0.344
+        },
+        {
+            "title": "Saka Saka Saka",
+            "author": "MC Mazzie & DJ npcsize & DJ Wizard",
+            "graph_values": [
+                0.8333333333333334,
+                0.5740740740740741,
+                0.37037037037037035,
+                0.4814814814814815,
+                0.5555555555555556,
+                0.31481481481481477,
+                0.2407407407407407
+            ],
+            "acousticness": 0.177,
+            "danceability": 0.805,
+            "energy": 0.743,
+            "instrumentalness": 0.00155,
+            "liveness": 0.149,
+            "speechiness": 0.0735,
+            "valence": 0.612
+        },
+        {
+            "title": "Doja",
+            "author": "Central Cee",
+            "graph_values": [
+                0.7962962962962963,
+                0.33333333333333337,
+                0.38888888888888884,
+                0.2962962962962963,
+                0.2407407407407407,
+                0.14814814814814814,
+                0.42592592592592593
+            ],
+            "acousticness": 0.38,
+            "danceability": 0.911,
+            "energy": 0.573,
+            "instrumentalness": 0,
+            "liveness": 0.403,
+            "speechiness": 0.288,
+            "valence": 0.972
+        },
+        {
+            "title": "I'm a Nasty Hoe",
+            "author": "Ugly God",
+            "graph_values": [
+                0.8148148148148149,
+                0.5185185185185186,
+                0.5740740740740741,
+                0.38888888888888884,
+                0.33333333333333337,
+                0.4814814814814815,
+                0.31481481481481477
+            ]
+        },
+        {
+            "title": "Don't Worry Be Happy (Originally Performed by Bobby Mcferrin) [Karaoke Instrumental Version]",
+            "author": "Hit The Button Karaoke",
+            "graph_values": [
+                0.7962962962962963,
+                0.38888888888888884,
+                0.40740740740740744,
+                0.2592592592592593,
+                0.31481481481481477,
+                0.18518518518518523,
+                0.18518518518518523
+            ]
+        },
+        {
+            "title": "Gorgeous",
+            "author": "Taylor Swift",
+            "graph_values": [
+                0.7962962962962963,
+                0.33333333333333337,
+                0.2407407407407407,
+                0.6111111111111112,
+                0.31481481481481477,
+                0.4444444444444444,
+                0.33333333333333337
+            ],
+            "acousticness": 0.0713,
+            "danceability": 0.8,
+            "energy": 0.535,
+            "instrumentalness": 0.00000948,
+            "liveness": 0.213,
+            "speechiness": 0.135,
+            "valence": 0.451
+        }
+    ]
+}
