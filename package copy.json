@@ -1,0 +1,46 @@
+{
+  "name": "dp-nodejs",
+  "version": "1.0.0",
+  "description": "A prototype for music data visualization and analysis",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jimp": "^0.22.12",
+    "luxon": "^3.4.4",
+    "node-spotify-api": "^1.1.1",
+    "puppeteer": "^22.10.0",
+    "body-parser": "^1.19.0"
+  },
+  "bin": {
+    "dp-nodejs": "./server.js"
+  },
+  "pkg": {
+    "scripts": "server.js",
+    "assets": [
+      "index.html",
+      "details.html",
+      "trending_music_final.json",
+      "trending_music_with_features.json",
+      "notes.json",
+      "trending_hashtags.json",
+      "trending_music.json",
+      "processed_songs.json",
+      "video_descriptions.json",
+      "one_day_prediction_model.onnx"
+    ],
+    "targets": [
+      "node16-win-x64",
+      "node16-macos-x64"
+    ],
+    "outputPath": "dist"
+  }
+}

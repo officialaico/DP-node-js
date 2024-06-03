@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .song-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .song-item h3 {
+            margin: 0 20px;
+            flex: 1;
+        }
+        .graph {
+            width: 400px;
+            height: 200px;
+        }
+        .note-button {
+            margin-left: 20px;
+            cursor: pointer;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+        .note-button:hover {
+            background-color: #0056b3;
+        }
+        .note-window {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid black;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        .divider {
+            height: 1px;
+            background-color: #ddd;
+            margin: 20px 0;
+        }
+        .checkbox-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+</head>
+<body>
+    <h1>DistroKid Songs</h1>
+    <div class="checkbox-container">
+        <label>
+            <input type="checkbox" id="ai-ranking" onchange="handleAIRanking()"> AI Predicted Ranking
+        </label>
+    </div>
+    <div id="distrokid-songs">
+        <!-- Placeholder for DistroKid songs -->
+    </div>
+
+    <button onclick="runExternalScript()">Run External Script</button>
+
+    <div id="note-window" class="note-window">
+        <h3 id="note-title">Note</h3>
+        <textarea id="note-content" rows="10" style="width: 100%;"></textarea>
+        <button onclick="saveNote()">Save</button>
+        <button onclick="closeNoteWindow()">Close</button>
+    </div>
+
+    <script>
+        async function fetchData(url) {
+            const response = await fetch(url);
+            return await response.json();
+        }
+
+        async function saveNote() {
+            const noteTitle = document.getElementById('note-title').dataset.title;
+            const noteContent = document.getElementById('note-content').value;
+            const response = await fetch('/save-note', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ title: noteTitle, content: noteContent })
+            });
+            if (response.ok) {
+                alert('Note saved!');
+                closeNoteWindow();
+            } else {
+                alert('Error saving note');
+            }
+        }
+
+        function runExternalScript() {
+            fetch('/run-script')
+                .then(response => response.json())
+                .then(data => alert(data.message))
+                .catch(error => console.error('Error running the external script:', error));
+        }
+
+        function drawGraph(canvas, values) {
+            const ctx = canvas.getContext('2d');
+            const width = canvas.width;
+            const height = canvas.height;
+            const padding = 10;
+            const maxValue = Math.max(...values);
+
+            ctx.clearRect(0, 0, width, height);
+
+            // Reverse the values for reversed direction
+            values = values.slice().reverse();
+
+            // Draw graph line
+            ctx.strokeStyle = '#007bff';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            values.forEach((value, index) => {
+                const x = padding + index * (width - 2 * padding) / (values.length - 1);
+                const y = height - padding - (value / maxValue) * (height - 2 * padding);
+                if (index === 0) {
+                    ctx.moveTo(x, y);
+                } else {
+                    ctx.lineTo(x, y);
+                }
+            });
+            ctx.stroke();
+
+            // Draw data points
+            ctx.fillStyle = '#007bff';
+            values.forEach((value, index) => {
+                const x = padding + index * (width - 2 * padding) / (values.length - 1);
+                const y = height - padding - (value / maxValue) * (height - 2 * padding);
+                ctx.beginPath();
+                ctx.arc(x, y, 4, 0, 2 * Math.PI);
+                ctx.fill();
+            });
+        }
+
+        async function populateDistrokidSongs() {
+            const finalData = await fetchData('/data');
+            const trendingData = await fetchData('/trending_music.json');
+            const notesData = await fetchData('/notes.json');
+
+            const distrokidSongs = finalData.data.filter(song => song.distrokid);
+
+            const container = document.getElementById('distrokid-songs');
+            container.innerHTML = '';
+
+            distrokidSongs.forEach((song, index) => {
+                const matchingTrendingSong = trendingData.data.find(
+                    trendingSong => trendingSong.title === song.title && trendingSong.author === song.author
+                );
+
+                if (matchingTrendingSong) {
+                    const songElement = document.createElement('div');
+                    songElement.className = 'song-item';
+
+                    const titleElement = document.createElement('h3');
+                    titleElement.textContent = `${song.title} - ${song.author}`;
+                    songElement.appendChild(titleElement);
+
+                    const graphCanvas = document.createElement('canvas');
+                    graphCanvas.className = 'graph';
+                    songElement.appendChild(graphCanvas);
+
+                    const noteButton = document.createElement('button');
+                    noteButton.className = 'note-button';
+                    noteButton.textContent = 'Add Note';
+                    noteButton.onclick = () => openNoteWindow(song.title, song.author, notesData);
+                    songElement.appendChild(noteButton);
+
+                    container.appendChild(songElement);
+
+                    if (index < distrokidSongs.length - 1) {
+                        const divider = document.createElement('div');
+                        divider.className = 'divider';
+                        container.appendChild(divider);
+                    }
+
+                    drawGraph(graphCanvas, matchingTrendingSong.graph_values);
+                }
+            });
+        }
+
+        function openNoteWindow(title, author, notesData) {
+            const noteWindow = document.getElementById('note-window');
+            const noteTitle = document.getElementById('note-title');
+            const noteContent = document.getElementById('note-content');
+
+            const noteKey = `${title} - ${author}`;
+            const note = notesData.notes.find(note => note.title === noteKey);
+
+            noteTitle.textContent = `Note for ${title} by ${author}`;
+            noteTitle.dataset.title = noteKey;
+            noteContent.value = note ? note.content : '';
+
+            noteWindow.style.display = 'block';
+        }
+
+        function closeNoteWindow() {
+            document.getElementById('note-window').style.display = 'none';
+        }
+
+        async function handleAIRanking() {
+            const isChecked = document.getElementById('ai-ranking').checked;
+            if (isChecked) {
+                await applyAIRanking();
+            } else {
+                await populateDistrokidSongs();
+            }
+        }
+
+        async function applyAIRanking() {
+            const finalData = await fetchData('/data');
+            const trendingData = await fetchData('/trending_music.json');
+
+            const distrokidSongs = finalData.data.filter(song => song.distrokid);
+
+            const scores = await Promise.all(distrokidSongs.map(async (song) => {
+                const matchingTrendingSong = trendingData.data.find(
+                    trendingSong => trendingSong.title === song.title && trendingSong.author === song.author
+                );
+
+                if (matchingTrendingSong) {
+                    const graphValues = matchingTrendingSong.graph_values.slice(-6); // Use the last 6 values
+                    const score = await predict(graphValues);
+                    return { song, score };
+                }
+                return { song, score: 0 };
+            }));
+
+            scores.sort((a, b) => b.score - a.score);
+
+            const container = document.getElementById('distrokid-songs');
+            container.innerHTML = '';
+
+            scores.forEach((item, index) => {
+                const song = item.song;
+                const matchingTrendingSong = trendingData.data.find(
+                    trendingSong => trendingSong.title === song.title && trendingSong.author === song.author
+                );
+
+                if (matchingTrendingSong) {
+                    const songElement = document.createElement('div');
+                    songElement.className = 'song-item';
+
+                    const titleElement = document.createElement('h3');
+                    titleElement.textContent = `${song.title} - ${song.author}`;
+                    songElement.appendChild(titleElement);
+
+                    const graphCanvas = document.createElement('canvas');
+                    graphCanvas.className = 'graph';
+                    songElement.appendChild(graphCanvas);
+
+                    const noteButton = document.createElement('button');
+                    noteButton.className = 'note-button';
+                    noteButton.textContent = 'Add Note';
+                    noteButton.onclick = () => openNoteWindow(song.title, song.author);
+                    songElement.appendChild(noteButton);
+
+                    container.appendChild(songElement);
+
+                    if (index < scores.length - 1) {
+                        const divider = document.createElement('div');
+                        divider.className = 'divider';
+                        container.appendChild(divider);
+                    }
+
+                    drawGraph(graphCanvas, matchingTrendingSong.graph_values);
+                }
+            });
+        }
+
+        async function predict(input) {
+            // Load the ONNX model
+            const session = await ort.InferenceSession.create('one_day_prediction_model.onnx');
+
+            // Create an input tensor
+            const inputTensor = new ort.Tensor('float32', Float32Array.from(input), [1, 6]);
+
+            // Run the model with the input tensor
+            const feeds = { float_input: inputTensor };
+            const results = await session.run(feeds);
+
+            // Extract the output
+            const output = results[session.outputNames[0]];
+            return output.data[0]; // Assuming the output is a single value
+        }
+
+        populateDistrokidSongs();
+    </script>
+</body>
+</html>
